@@ -14,9 +14,12 @@ function App() {
   //now when we are trying to update the UI it not updating so to change states of all instances we use the useState
   //let counterValue = 0
   const addValue = ()=>{
-   counterValue = counterValue + 1;
+   //counterValue = counterValue + 1;
    console.log("Value removed", Math.random());
-   setCounterValue(counterValue)
+   setCounterValue(counterValue + 1)
+   setCounterValue(counterValue + 1)
+   setCounterValue(counterValue + 1)
+   setCounterValue(counterValue + 1)
   }
 
   const removeValue = ()=>{
@@ -24,12 +27,14 @@ function App() {
     if(counterValue == 0){
       counterValue = 0
       setCounterValue(counterValue)
+      
     }
     
     else{
       counterValue = counterValue - 1;
       console.log("Value removed", Math.random());
       setCounterValue(counterValue)
+      
     }
     
   }
