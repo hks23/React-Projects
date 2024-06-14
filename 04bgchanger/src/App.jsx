@@ -3,7 +3,7 @@ import ColorButton from "./components/button";
 
 function App() {
   const [color, setColor] = useState("white")
-  const colors = ['#FFD1DC', '#AEC6CF', '#77DD77', '#CBAACB', '#FDFD96', '#FFB347', '#FF6961', '#99C5C4', '#DCD3FF', '#FFDAB9'];
+  const colors =['#D597AE', '#8AA6C1', '#6C8B74', '#9E83A2', '#D3C36D', '#C88945', '#C4746E', '#6B878E', '#A08AA5', '#D7A590'];
 
   return (
     <div className="w-full h-screen duration-200"
